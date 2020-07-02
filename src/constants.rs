@@ -10,13 +10,13 @@ SystemMaxUse=16M
 pub const BASE_PACKAGES: [&str; 9] = [
     "base",
     "linux54",
+    "linux54-broadcom-wl",
     "linux-firmware",
     "grub",
     "efibootmgr",
     "intel-ucode",
-    "networkmanager",
-    "broadcom-wl",
     "amd-ucode",
+    "networkmanager",
 ];
 
 pub const AUR_DEPENDENCIES: [&str; 3] = ["base-devel", "git", "sudo"];
