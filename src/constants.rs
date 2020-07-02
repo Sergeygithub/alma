@@ -9,7 +9,7 @@ SystemMaxUse=16M
 
 pub const BASE_PACKAGES: [&str; 9] = [
     "base",
-    "linux",
+    "linux54",
     "linux-firmware",
     "grub",
     "efibootmgr",
