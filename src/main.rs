@@ -434,7 +434,7 @@ fn create(command: args::CreateCommand) -> anyhow::Result<()> {
     arch_chroot
         .execute()
         .arg(mount_point.path())
-        .args(&["mkinitcpio", "-p", "linux"])
+        .args(&["mkinitcpio", "-P"])
         .run()
         .context("Failed to run mkinitcpio - do you have the base and linux packages installed?")?;
 
