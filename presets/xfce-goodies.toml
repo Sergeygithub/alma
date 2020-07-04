@@ -1,0 +1,2 @@
+packages = ["xfce4-goodies", "xfce4-pulseaudio-plugin", "pavucontrol", "mugshot", "engrampa", "catfish", "firefox", "screenfetch", "thunderbird"]
+
